@@ -1,5 +1,6 @@
 {
   "expo": {
+    "scheme": "com.example.reactnativestarter",
     "name": "react-native-starter",
     "slug": "react-native-starter",
     "version": "1.0.0",
@@ -24,6 +25,9 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      "expo-router"
+    ]
   }
 }
